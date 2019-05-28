@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+## Copyright © by Miles Bradley Huff from 2019 per the LGPL3 (the Third Lesser GNU Public License)
 ## This script removes unnecessary information from uncompressed .ck2 files.
 ## This will decrease filesize and can speed up the game.
 

@@ -1,0 +1,10 @@
+## .gitignore
+## Copyright © by Miles Bradley Huff from 2019 per the LGPL3 (the Third Lesser GNU Public License)
+
+## Savefiles
+**.rome
+**.ck2
+**.eu4
+**.v2
+**.hoi4
+**.sav

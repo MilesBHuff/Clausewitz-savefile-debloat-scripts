@@ -1,0 +1,18 @@
+## .editorconfig
+## Copyright © by Miles Bradley Huff from 2019 per the LGPL3 (the Third Lesser GNU Public License)
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+end_of_line  = lf
+indent_size  = 4
+indent_style = tab
+
+[*.bash]
+indent_size  = 2
+indent_style = tab
+
+[*.rst]
+indent_size  = 2
+indent_style = space
