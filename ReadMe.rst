@@ -1,4 +1,4 @@
-Clausewitz savegame debloaters
+Clausewitz savegame debloat scripts
 ================================================================================
 
 About
