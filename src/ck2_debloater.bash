@@ -40,10 +40,10 @@ regex 's/  \t*       rel(|igion)="noreligion"\n  //gmsx'
 #regex 's/  \t*(original_|)parent="noreligion"\n  //gmsx'
 
 #echo "$HEADER: Removing 'was_heresy'..."
-regex 's/  \t*was_heresy=(yes|no)\n  //gmsx'
+#regex 's/  \t*was_heresy=(yes|no)\n  //gmsx'
 
-echo "$HEADER: Removing technology..." #NOTE:  Only for use with mods that don't use tech!
-regex 's/  \t{3}technology=.*?\t{3}\}\n  //gmsx'
+#echo "$HEADER: Removing technology..." #NOTE:  Only for use with mods that don't use tech!
+#regex 's/  \t{3}technology=.*?\t{3}\}\n  //gmsx'
 
 ## -----------------------------------------------------------------------------
 HEADER='Characters'
