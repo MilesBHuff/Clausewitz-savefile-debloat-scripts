@@ -30,7 +30,7 @@ cp "$1" "$F1"
 HEADER='General'
 
 echo "$HEADER: Blanking negative dates..."
-regex 's/  -\d*\.\d{1,2}\.\d{1,2}  //gmsx'
+regex 's/  -\d+\.\d{1,2}\.\d{1,2}  //gmsx'
 
 echo "$HEADER: Removing empty strings..."
 regex 's/  ^.*""  //gmx'  ## No 's'
